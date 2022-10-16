@@ -32,7 +32,7 @@ var typed = new Typed(".typeWriter", {
 });
 // -------------------------------------
 // wow js
-new WOW().init();
+// new WOW().init();
 // --------------------------------------
 // select
 let bullets = document.querySelector(".bullets");
