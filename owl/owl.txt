@@ -1,0 +1,59 @@
+Installation
+
+
+<--------css----->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+
+
+<--------js------>
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+<script>
+// owl carousel
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  center: true,
+  autoWidth: true,
+  slideBy: 2,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 3,
+    },
+    1000: {
+      items: 5,
+    },
+  },
+});
+
+</script>
+
+
+<!-- Set up your HTML -->
+                   <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="pics/Html.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="pics/Html.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="pics/Html.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="pics/Html.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="pics/Html.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
